@@ -1,0 +1,9 @@
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nhome:hover {color:blue;}
+#subh {background-color:rgba(245, 245, 245, 0.893)}
+.c-para{height: 100vh;}
+.c-img {height: 100%;}

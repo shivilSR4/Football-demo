@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 #nhome:hover {color:blue;}
-#subh {background-color:rgba(245, 245, 245, 0.893)}
+#subh {background-color:rgba(164, 162, 162, 0.767)}
 .c-para{height: 100vh;}
 .c-img {height: 100%;}
+
+.img1{max-height: 5px;max-width: 5px;}

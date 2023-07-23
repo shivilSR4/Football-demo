@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg  bg-dark">
+    <nav class="navbar navbar-expand-lg  bg-dark ">
         <div class="container-fluid text-white  ">
           <a class="navbar-brand text-white mx-4 h5 display-5 lead fw-bold " href="#" id="fa"> <h4 class="py-1">FOOTBALL</h4></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                 <a class="nav-link active text-white " aria-current="page" href="#" id="nhome">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">FEATURES</a>
+                <a class="nav-link text-white" href="#feature">FEATURES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">PRIZING</a>
@@ -158,10 +158,10 @@
     <h3 class="fs-3 my-5 text-info">TRANSFER TODAY..HERE WE GO!</h3>
     </div>
     <!-- cards -->
-   <div class="container-fluid">
+   <div class="container-fluid" id="featur">
     <div class="row d-flex justify-content-evenly">
       
-        <div class="card col-12 col-md-3" >
+        <div class="card col-12 col-md-3 border-primary" >
           <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltff331f4d959cb9eb/64830026821fa167353381b6/GOAL_-_Multiple_Images_-_2_Split_-_Facebook.jpg?auto=webp&format=pjpg&width=3840&quality=60" class="card-img-top img-fluid" id="card1" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -169,7 +169,7 @@
             <a href="#" class="btn btn-danger btn-lg">€47.5M</a>
           </div>
         </div>
-        <div class="card col-12 col-md-3" >
+        <div class="card col-12 col-md-3 border-primary" >
           <img src="https://assets.ayobandung.com/crop/0x613:1080x1407/750x500/webp/photo/2023/06/15/Jude-Bellingham-4038143203.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -177,7 +177,7 @@
             <a href="#" class="btn btn-danger btn-lg">€103M</a>
           </div>
         </div>
-        <div class="card col-12 col-md-3" >
+        <div class="card col-12 col-md-3 border-primary" >
           <img src="https://supersport-cms-prod.azureedge.net/media/oiybr3l1/sergio-busquets-posing-2023-g-1200.jpg?width=2048&quality=100" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -193,9 +193,9 @@
 
     <!-- cards -->
     <!-- point table -->
-    <div class="container-fluid bg-dark my-4 mb-4 py-2">
+    <div class="container-fluid bg-dark mt-4  py-2">
       <h4 class="lead text-white my-3 p-4 display-5">POINT TABLE</h4>
-    <div class="container mt-3 mb-5  bg-white">
+    <div class="container mt-3 mb-5  bg-white d-none d-md-block">
       <table class="table table-striped">
        <thead>
         <tr>
@@ -263,11 +263,63 @@
     </div>
   </div>
     <!-- point table -->
+    <!-- modal -->
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">feedback</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>hellow world</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+ <!-- footer -->
+ 
+ <div class="container-fluid bg-dark ">
+  <div class=" d-flex justify-content-center row" id="footer">
+    <div class="col-7"> <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link text-dark" aria-current="page" href="#">Term of Use</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Privacy Policy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Addendum to the Global Privacy Policy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ">Interest Based Ads</a>
+      </li>
+    </ul>
+  </div>
+   
+  <div class="col-1"> 
+    <img id="imgl" src="https://1000logos.net/wp-content/uploads/2017/01/ESPN-Logo.jpg" class="img-fluid">
+  </div>
+
+ </div>
+
+ <!-- footer -->
 
 
 
-<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})</script>
+   
 </body>
 </html>

@@ -8,4 +8,5 @@
 .c-para{height: 100vh;}
 .c-img {height: 100%;}
 
-.img1{max-height: 5px;max-width: 5px;}
+#footer {background-color: antiquewhite;}
+#imgl {max-width: 120px; max-height: 120px;}
